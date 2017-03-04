@@ -4,6 +4,10 @@
 <title>Little Green Frog Applications</title>
 <!--#ccff99-->
 <style>
+    body {
+        background-color: #d9ffb3;
+    }
+
     #lgf_start {
         background-color: #336600;
         border: 1px solid;
@@ -12,15 +16,37 @@
         text-align: center;
     }
     #appdiv {
-        border: 3px solid blue;
+        padding-top: 10px;
     }
-    #appdiv.img {
-        border: 3px solid red;
+    #appdiv > img {
+        display: block;
+        margin: auto;
+        width: 100px;
+     }
+     #appdiv > h2 {
+        text-align: center;
+     }
+     #appdiv > p {
+        padding-top: 10px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+     }
+     .instruct {
+        padding-top: 30px;
+     }
+     .instruct > hr {
+        width: 50%;
+     }
+     .instruct > h3 {
+        text-align: center;
+     }
+     .instruct > img {
+        width: 20%;
+        display: block;
+        margin: auto;
      }
 
-    body {
-        background-color: #d9ffb3;
-    }
 </style>
 </head>
 
@@ -32,38 +58,47 @@
     </div>
     
     <div id="appdiv">
-        <img src="MoviePosters.png" width="100"/>
+        <h2>Movie Posters and Wallpapers</h3>
 
-        <h3>Movie Posters and Wallpapers</h3>
+        <img src="MoviePosters.png"/>
+
         <p>
             Movie and TV show posters make ideal iPhone wallpapers. The Movie Posters and Wallpapers app makes it easy
             to download the poster or scene from your favorite show and use it as your iPhone Lock or Home screen wallpaper.
         </p>
     </div>
     
-    <div style="clear: both; padding-top: 30px">
-        <img style="float: left; padding-right: 30px" src="choose.png" width="150" />
-
-        <p>
+    <div class="instruct">
+        <hr/>
+        
+        <h3>
             Just choose your favorite Movie or TV show.
-        </p>
+        </h3>
+
+        <img src="choose.png"/>
+
     </div>
     
-    <div style="clear: both; padding-top: 30px">
-        <img style="float: left; padding-right: 30px" src="poster.png" width="150" />
-
-        <p>
+    <div class="instruct">
+        <hr/>
+        <h3>
             Swipe through all the posters.
-        </p>
+        </h3>
+           
+        <img src="poster.png" />
+
     </div>
 
-    <div style="clear: both; padding-top: 30px">
-        <img style="float: left; padding-right: 30px" src="scene.png" width="150" />
-
-        <p>
+    <div class="instruct">
+        <hr/>
+        <h3>
             And scenes. And save them to your iPhone photos. From there you can set them as your wallpaper as usual.
-        </p>
+        </h3>
+           
+        <img src="scene.png" />
+        
     </div>
+
     
     <div style="clear: both; padding-top: 30px">
     
